@@ -11,7 +11,6 @@ ui_print("Removing system bloat...");
 
 delete_recursive(
     "/system/app/AntHalService",
-    "/system/app/Apollo",
     "/system/app/BasicDreams",
     "/system/app/BookmarkProvider",
     "/system/app/Browser",
@@ -36,7 +35,6 @@ delete_recursive(
     "/system/app/HexoLibre",
     "/system/app/HoloSpiralWallpaper",
     "/system/app/Jelly",
-    "/system/app/LiveWallpapers",
     "/system/app/LiveWallpapersPicker",
     "/system/app/LockClock",
     "/system/app/MagicSmokeWallpapers",
@@ -57,7 +55,6 @@ delete_recursive(
     "/system/app/RRWallpapers",
     "/system/app/SoundRecorder",
     "/system/app/Terminal",
-    "/system/app/Vending",
     "/system/app/VideoEditor",
     "/system/app/VisualizationWallpapers",
     "/system/app/VoicePlus",
@@ -68,7 +65,6 @@ delete_recursive(
 );
 delete_recursive(
     "/system/priv-app/AndroidMigratePrebuilt",
-    "/system/priv-app/AudioFX",
     "/system/priv-app/CellBroadcastReceiver",
     "/system/priv-app/CMAccount",
     "/system/priv-app/CMAudioService",
@@ -98,16 +94,9 @@ delete_recursive(
     "/system/priv-app/ThemeManagerService",
     "/system/priv-app/ThemesProvider",
     "/system/priv-app/Updater",
-    "/system/priv-app/Velvet",
     "/system/priv-app/Vending",
     "/system/priv-app/WeatherManagerService",
     "/system/priv-app/WeatherProvider"
-);
-delete_recursive(
-    "/system/media/audio/ringtones",
-    "/sdcard/Alarms",
-    "/sdcard/Notifications",
-    "/sdcard/Podcasts"
 );
 
 show_progress(1, 15);
