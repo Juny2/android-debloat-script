@@ -10,8 +10,6 @@ Also, to avoid a bootloop caused by the removal of Velvet.apk, go to `Settings >
 
 * AndroidMigratePrebuilt
 * AntHalService (used for activity trackers, heart rate monitors etc.)
-* Apollo
-* AudioFX
 * BasicDreams
 * BookmarkProvider (used to import/export bookmarks)
 * Browser (AOSP)
@@ -44,7 +42,6 @@ Also, to avoid a bootloop caused by the removal of Velvet.apk, go to `Settings >
 * Jelly (LineageOS browser)
 * LineageSetupWizard
 * LiveLockScreenService
-* LiveWallpapers
 * LiveWallpapersPicker
 * LockClock (cLock)
 * MagicSmokeWallpapers
@@ -79,7 +76,6 @@ Also, to avoid a bootloop caused by the removal of Velvet.apk, go to `Settings >
 * ThemeManagerService
 * ThemesProvider
 * Updater
-* Velvet (Google App)
 * Vending
 * VideoEditor
 * VisualizationWallpapers
@@ -90,13 +86,3 @@ Also, to avoid a bootloop caused by the removal of Velvet.apk, go to `Settings >
 * WhisperPush
 * WundergroundWeatherProvider
 * YahooWeatherProvider
-
-## Other removed directories/files
-
-```
-/system/media/audio/ringtones
-
-/sdcard/Alarms
-/sdcard/Notifications
-/sdcard/Podcasts
-```
